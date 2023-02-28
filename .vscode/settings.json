@@ -1,3 +1,6 @@
 {
-    "cmake.sourceDirectory": "${workspaceFolder}/linux"
+    "cmake.sourceDirectory": "${workspaceFolder}/linux",
+    "yaml.schemas": {
+        "file:///c%3A/Users/User/.vscode/extensions/ms-python.python-2023.3.10411009/schemas/conda-environment.json": "file:///c%3A/Projects/konethus_app/analysis_options.yaml"
+    }
 }

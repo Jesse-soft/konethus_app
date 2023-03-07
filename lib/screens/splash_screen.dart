@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:konethus_app/components/constants.dart';
-import 'package:konethus_app/screens/home_screen.dart';
+import 'package:konethus_app/screens/home_page/home_screen.dart';
 import 'package:konethus_app/screens/onboarding_screen.dart';
 import 'package:rive/rive.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -37,7 +37,6 @@ class _SplashScreenState extends State<SplashScreen> {
             showHome ? homeScreen() : const OnboardingScreen(),
       ),
     );
-    // showHome ? homeScreen() : const OnboardingScreen();
   }
 
   onboardingScreen() {

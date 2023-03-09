@@ -48,6 +48,7 @@ dependencies:
   firebase_auth_web: ^5.2.4
   firebase_core: ^2.7.0
   firebase_database: ^10.0.9
+  story_page_view: ^1.0.0
   # smooth_page_indicator: ^1.0.0
 dev_dependencies:
   flutter_test:

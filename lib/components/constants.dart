@@ -4,7 +4,12 @@ const kprimaryColor = Color(0xff0065FF);
 const InputDecoration inPutDecoration = InputDecoration(
   hintText: '',
   hintStyle: TextStyle(
-    color: Color.fromARGB(183, 158, 158, 158),
+    color: Color.fromARGB(
+      183,
+      158,
+      158,
+      158,
+    ),
     fontSize: 12,
   ),
   // labelText: 'Enter Your Email',

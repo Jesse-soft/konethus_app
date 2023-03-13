@@ -13,7 +13,20 @@ class _PostScreenState extends State<PostScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        children: [Text('posts')],
+        children: [
+          Container(
+            margin: const EdgeInsets.symmetric(
+              horizontal: 20,
+              vertical: 20,
+            ),
+            child: IconButton(
+              onPressed: () {},
+              icon: Icon(
+                Icons.arrow_back_ios_new,
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }

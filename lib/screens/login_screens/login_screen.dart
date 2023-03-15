@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:konethus_app/components/cupertino_button.dart';
 import 'package:konethus_app/components/raw_material_sign_in_button.dart';
+import 'package:konethus_app/screens/home_page/home_screen.dart';
 import 'package:konethus_app/screens/password_screens/forgotten_password.dart';
 import 'package:konethus_app/screens/signup_screens/signup_screen.dart';
 
@@ -16,7 +17,6 @@ class LoginScreen extends StatefulWidget {
 }
 
 class _LoginScreenState extends State<LoginScreen> {
-  Future<FirebaseApp> firebaseApp = Firebase.initializeApp();
   final emailController = TextEditingController();
   final passWord = TextEditingController();
   bool isPassWordVisible = false;
@@ -223,7 +223,9 @@ class _LoginScreenState extends State<LoginScreen> {
             ),
           ),
           cupertinoButton(
-            () {},
+            () {
+              Navigator.pushNamed(context, HomeScreen.id);
+            },
             const Text(
               'Log In',
               style: TextStyle(

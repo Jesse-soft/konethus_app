@@ -61,6 +61,7 @@ class _HomeScreenState extends State<HomeScreen> {
               BottomNavigationBarItem(
                 icon: Icon(
                   Icons.add_circle_outline,
+                  size: 30,
                 ),
                 label: 'Post',
               ),

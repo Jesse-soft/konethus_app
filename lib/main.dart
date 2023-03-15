@@ -9,7 +9,6 @@ import 'package:konethus_app/screens/password_screens/success_password.dart';
 import 'package:konethus_app/screens/signup_screens/signup2_screen.dart';
 import 'package:konethus_app/screens/signup_screens/signup_screen.dart';
 import 'package:konethus_app/screens/splash_screen.dart';
-
 import 'screens/home_page/bottom_nav_bar_pages/home.dart';
 import 'screens/home_page/bottom_nav_bar_pages/notifications_screen.dart';
 import 'screens/home_page/bottom_nav_bar_pages/post_screen.dart';

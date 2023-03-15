@@ -28,11 +28,8 @@ class _HomeState extends State<Home> {
                   child: SizedBox(
                     height: 50,
                     width: 100,
-                    child: Hero(
-                      tag: 'normal',
-                      child: Image.asset(
-                        'assets/images/konethus.png',
-                      ),
+                    child: Image.asset(
+                      'assets/images/konethus.png',
                     ),
                   ),
                 ),
